@@ -1,0 +1,216 @@
+diff --git a/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_DB.yaml b/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_DB.yaml
+index 7c7a9300..899ed90a 100644
+--- a/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_DB.yaml
++++ b/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_DB.yaml
+@@ -6709,9 +6709,9 @@
+     ThreadTile1: 1
+     ThreadTileA: 16
+     ThreadTileB: 1
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -8941,9 +8941,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -11173,9 +11173,9 @@
+     ThreadTile1: 1
+     ThreadTileA: 16
+     ThreadTileB: 1
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -12847,9 +12847,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -13126,9 +13126,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -14242,9 +14242,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -14800,9 +14800,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 32
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+diff --git a/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_DB_GB.yaml b/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_DB_GB.yaml
+index d97f00f0..54d209ee 100644
+--- a/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_DB_GB.yaml
++++ b/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_DB_GB.yaml
+@@ -3381,9 +3381,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -3939,9 +3939,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -4218,9 +4218,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -6171,9 +6171,9 @@
+     ThreadTile1: 1
+     ThreadTileA: 8
+     ThreadTileB: 1
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -7845,9 +7845,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -12030,9 +12030,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -12309,9 +12309,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -12867,9 +12867,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 16
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+@@ -13704,9 +13704,9 @@
+     ThreadTile1: 2
+     ThreadTileA: 32
+     ThreadTileB: 2
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
+diff --git a/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_SB.yaml b/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_SB.yaml
+index e179c8b5..1c97f2d8 100644
+--- a/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_SB.yaml
++++ b/library/src/blas3/Tensile/Logic/asm_full/aquavanjaram942/aquavanjaram942_Cijk_Alik_Bjlk_SB.yaml
+@@ -7813,9 +7813,9 @@
+     ThreadTile1: 1
+     ThreadTileA: 32
+     ThreadTileB: 1
+-    TransposeLDS: 0
++    TransposeLDS: 1
+     UnrollIncIsDepthU: 0
+-    UnrollMajorLDSA: false
++    UnrollMajorLDSA: true
+     UnrollMajorLDSB: false
+     UnrollMemFence: false
+     Use64bShadowLimit: 1
